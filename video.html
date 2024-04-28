@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ℍ𝔸ℂ𝕂𝕀ℕ𝔾 𝕍𝕀𝔻𝔼𝕆𝕊</title>
+<link rel="stylesheet" href="css.css">
+<style>
+  
+</style>
+</head>
+<body>
+  
+  
+<div class="video-player">
+  <video id="main-video" controls>
+    <source src="w.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div id="video-name" class="video-name">𝔽𝔸ℂ𝔼𝔹𝕆𝕆𝕂 ℍ𝔸ℂ𝕂𝕀ℕ𝔾 𝕌𝕊𝕀ℕ𝔾 𝔸 𝕃𝕀ℕ𝕂</div>
+</div>
+
+<div class="thumbnails">
+  <div>
+    <img class="thumbnail" src="1.jpeg" onclick="loadVideo('https://firebasestorage.googleapis.com/v0/b/movies-translated.appspot.com/o/1.mp4?alt=media&token=e714c6dc-c931-4d2f-a7c3-39eb3fcdec03', 'Video 1')" alt="Thumbnail 1">
+    <div class="video-name">ℍ𝕆𝕎 𝕋𝕆 𝕄𝔸𝕂𝔼 𝔸 ℍ𝔸ℂ𝕂𝕀ℕ𝔾 𝔹𝕆𝕋</div>
+  </div>
+  <div>
+    <img class="thumbnail" src="1.jpeg" onclick="loadVideo('2.mp4', 'Video 2')" alt="Thumbnail 2">
+    <div class="video-name">ℍ𝕆𝕎 𝕋𝕆 𝕄𝔸𝕂𝔼 𝔸 ℝ𝔸𝕋 𝔸ℙ𝕂</div>
+  </div>
+  <div>
+    <img class="thumbnail" src="1.jpeg" onclick="loadVideo('3.mp4', 'Video 3')" alt="Thumbnail 3">
+    <div class="video-name">𝕊𝕄𝕊 ℍ𝔸ℂ𝕂𝕀ℕ𝔾 𝟚𝟘𝟚𝟜</div>
+  </div>
+  <div>
+    <img class="thumbnail" src="1.jpeg" onclick="loadVideo('4.mp4', 'Video 4')" alt="Thumbnail 4">
+    <div class="video-name">𝕊𝕄𝕊 𝔸ℙ𝕂 𝕄𝔸𝕂𝕀ℕ𝔾 (ℝ𝔸𝕋 𝔸ℙ𝕂)</div>
+  </div>
+  <img class="thumbnail" src="1.jpeg" onclick="loadVideo('5.mp4', 'Video 5')" alt="Thumbnail 2">
+    <div class="video-name">𝔽𝔸ℂ𝔼𝔹𝕆𝕆𝕂 ℍ𝔸ℂ𝕂𝕀ℕ𝔾 𝕌𝕊𝕀ℕ𝔾 𝔸 𝕃𝕀ℕ𝕂</div>
+  </div>
+  <div>
+    <img class="thumbnail" src="1.jpeg" onclick="loadVideo('6.mp4', 'Video 6')" alt="Thumbnail 3">
+    <div class="video-name">𝕋ℍ𝔼 𝕄𝕆𝕊𝕋 ℙℍ𝕆ℕ𝔼 ℍ𝔸𝕂𝕀ℕ𝔾 ℝ𝔸𝕋</div>
+  </div>
+  <div>
+    <img class="thumbnail" src="1.jpeg" onclick="loadVideo('7.mp4', 'Video 7')" alt="Thumbnail 4">
+    <div class="video-name">ℍ𝕆𝕎 𝕋𝕆 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻 𝔸𝕃𝕃 𝕋ℍ𝔼 ℝ𝔸𝕋𝕊 𝕌𝕊𝔼𝔻</div>
+  </div>
+</div>
+
+<script>
+  function loadVideo(videoSrc, videoName) {
+    var videoPlayer = document.getElementById('main-video');
+    var videoNameDiv = document.getElementById('video-name');
+    videoPlayer.src = videoSrc;
+    videoNameDiv.textContent = videoName;
+    videoPlayer.play();
+  }
+</script>
+
+</body>
+</html>

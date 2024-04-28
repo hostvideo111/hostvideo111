@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .video-player {
+    width: 100%;
+    height: 200px
+    max-width: 100%;
+    margin: auto;
+  }
+  video {
+    width: 100%;
+    height: auto;
+  }
+ .thumbnail {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%; /* Adjust the width as needed */
+  height: 200px; /* This will maintain the aspect ratio */
+}
+
+  .thumbnail {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .video-name {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 0.5em; /* Larger font size for better readability */
+  color: #fff; /* White color for better contrast */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 5px 10px; /* Padding for a better visual appearance */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  display: inline-block; /* Allows the background to fit the text */
+  margin-bottom: 15px; /* Additional spacing from the thumbnails */
+}
+ body {
+    background-color: #330033; /* Dark gray */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+}
